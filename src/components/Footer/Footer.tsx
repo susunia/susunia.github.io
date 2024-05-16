@@ -56,15 +56,15 @@ export default function Footer() {
                                 <h4 className="fw-title">Office</h4>
                                 <div className="footer-link">
                                     <ul className="list-wrap">
-                                        <li>Bankura (West Bengal India) 722137</li>
-                                        <li>+91 9800358963</li>
-                                        <li>thelinkseller@gmail.com</li>
+                                        <li>AB-47/2, Prafulla Kanan, Kestopur, Kolkata, West Bengal, 700101.</li>
+                                        <li>+91 9734606012</li>
+                                        <li>info@codexde.com</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6">
-                            <img src="/new_logo.png" alt="logo" width="80px" height="auto" className="animate__animated animate__backInRight animate__faster`" />
+                            {/* <img src="/new_logo.png" alt="logo" width="80px" height="auto" className="animate__animated animate__backInRight animate__faster`" /> */}
                             <h2 className="gradient_text">codexde.com</h2>
                         </div>
                     </div>
