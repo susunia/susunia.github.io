@@ -8,8 +8,8 @@ import { GoChevronLeft } from "react-icons/go";
 import { FcHome, FcNext } from "react-icons/fc";
 
 const metadata: Metadata = {
-    title: "Offered Services : BacklinkStudios.com",
-    description: "Backlink Studios | Search Engine Optimization,Copywriting,Backlinking,Link Building,Guest Blogging,Niche Edits",
+    title: "Offered Services : codexde.com",
+    description: "codexde | Search Engine Optimization,Copywriting,Backlinking,Link Building,Guest Blogging,Niche Edits",
 };
 
 function getCurrentService(path: string | null) {

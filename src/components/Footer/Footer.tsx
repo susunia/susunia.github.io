@@ -11,8 +11,8 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="fw-title">Backlink Studios</h4>
-                                <div className="footer-link">At Backlink Studios, we are not just about making profits. We aim to see our clients prosper and their busiWelcome to Backlink Studios; here, we offer the best services that will ensure a boost to your ranking.</div>
+                                <h4 className="fw-title">codexde</h4>
+                                <div className="footer-link">At codexde, we are not just about making profits. We aim to see our clients prosper and their busiWelcome to codexde; here, we offer the best services that will ensure a boost to your ranking.</div>
                             </div>
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
@@ -65,13 +65,13 @@ export default function Footer() {
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <img src="/new_logo.png" alt="logo" width="80px" height="auto" className="animate__animated animate__backInRight animate__faster`" />
-                            <h2 className="gradient_text">BacklinkStudios.com</h2>
+                            <h2 className="gradient_text">codexde.com</h2>
                         </div>
                     </div>
                 </div>
             </footer>
             <div className="_._bg-[#12032F] _._py-3">
-                <div className="container _._font-semibold">Copyright © 2024 Reserved by | BacklinkStudios.com</div>
+                <div className="container _._font-semibold">Copyright © 2024 Reserved by | codexde.com</div>
             </div>
         </>
     );
