@@ -20,7 +20,7 @@ export default class Typer extends Component<any, any> {
         this.handleType();
     }
     handleType = async () => {
-        const dataText = ["by leveraging our SEO and content expertise.", "by utilizing our link building strategies.", "by combining our web development expertise with SEO best practices.", "The codexde is your bridge to your ideal audience."];
+        const dataText = ["by leveraging our Domain expertise.", "by utilizing our technical strategies.", "by combining our coding expertise with SDE best practices.", "The codexde is your bridge to your software product."];
         const { isDeleting, loopNum, text, typingSpeed } = this.state;
         const i = loopNum % dataText.length;
         const fullText = dataText[i];

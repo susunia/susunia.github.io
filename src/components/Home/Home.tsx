@@ -20,7 +20,7 @@ export const Home: FC<any> = (): ReactElement => {
     return (
         <>
             <div className="container _._mt-10 animate__animated animate__flipInX animate__slow">
-                <h2 className="h2_text _._text-center anim">Get the Targeted and Relevant Traffic,</h2>
+                <h2 className="h2_text _._text-center anim">Get your software solution developed,</h2>
                 <h2 className="h2_text _._text-center">
                     <span className="gradient_text">
                         <Typer />
@@ -39,8 +39,8 @@ export const Home: FC<any> = (): ReactElement => {
                         <div className="_._p-2 _._flex _._align-middle _._justify-center _._items-center">
                             <span>
                                 <b>Welcome to The codexde</b>
-                                <h1>Boost Your Ranking</h1>
-                                <p>At codexde, we are not just about making profits. We aim to see our clients prosper and their business .Welcome to the link seller; here, we offer the best services that will ensure a boost to your ranking. We are digital specialists who help re-known brands push their brands beyond boundaries. We help our clients achieve this by ensuring best practices, such as using the best marketing techniques and data-driven insights and developing processes that unlock their business growth.</p>
+                                <h1>Get your software ready</h1>
+                                <p>codexde.com</p>
                             </span>
                         </div>
                     </Col>

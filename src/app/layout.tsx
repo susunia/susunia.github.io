@@ -17,7 +17,7 @@ const Nanum_Gothic_font = Nanum_Gothic({
 });
 
 export const metadata: Metadata = {
-    title: "codexde.com",
+    title: "Codex Development Environment",
     description: "codexde | Search Engine Optimization,Copywriting,Backlinking,Link Building,Guest Blogging,Niche Edits",
 };
 
