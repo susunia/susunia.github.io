@@ -20,11 +20,11 @@ export default function Header() {
             </div>
             <div className="container _._flex _._flex-wrap md:_._justify-between _._justify-center _._p-2 _._md:p-5">
                 <Link href="/" className="_._flex title-font _._font-medium _._items-center _._text-gray-900 _._mb-4">
-                    <img src="/new_logo.png" alt="logo" width="200px" height="auto" className="animate__animated animate__backInLeft animate__faster`" />
+                    {/* <img src="/new_logo.png" alt="logo" width="200px" height="auto" className="animate__animated animate__backInLeft animate__faster`" /> */}
                     {/* <ExampleLogo /> */}
                     <div className="logo_text">
                         <span className="_._text-[#fe5855]">codex</span>
-                        <span className="_._text-[#6721ff]">de</span>Studio.com
+                        <span className="_._text-[#6721ff]">de</span>.com
                     </div>
                     {/* <span className="large">B</span>
                     <span className="large S">S</span>
