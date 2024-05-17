@@ -24,7 +24,7 @@ export default function Header() {
                     {/* <ExampleLogo /> */}
                     <div className="logo_text">
                         <span className="_._text-[#fe5855]">codex</span>
-                        <span className="_._text-[#6721ff]">de</span>.com
+                        <span className="_._text-[#6721ff]">de</span>
                     </div>
                     {/* <span className="large">B</span>
                     <span className="large S">S</span>
