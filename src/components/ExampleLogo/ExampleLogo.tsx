@@ -6,13 +6,13 @@ const icon_b = {
     hidden: {
         opacity: 0,
         pathLength: 0,
-        fill: "rgba(109, 52, 243, 0)",
+        fill: "rgba(8, 103, 193, 0)",
         stroke: "rgba(41, 152, 255, 0)",
     },
     visible: {
         opacity: 1,
         pathLength: 1,
-        fill: "rgba(109, 52, 243 , 1)",
+        fill: "rgba(8, 103, 193 , 1)",
         stroke: "rgba(41, 152, 255, 1)",
     },
 };
@@ -33,7 +33,7 @@ export const ExampleLogo = () => (
     <div className="fm_container">
         <motion.svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="fm_item">
             <motion.path
-                variants={icon_b}
+                variants={icon_s}
                 initial="hidden"
                 animate="visible"
                 transition={{
@@ -65,7 +65,7 @@ export const ExampleLogo = () => (
                 transform="matrix(0.492804, -0.87014, -0.87014, -0.492804, -30.905869, 224.365157)"
             />
             <motion.path
-                variants={icon_s}
+                variants={icon_b}
                 initial="hidden"
                 animate="visible"
                 transition={{
@@ -76,7 +76,7 @@ export const ExampleLogo = () => (
                 transform="matrix(0.999978, -0.006558, -0.006558, -0.999978, -14.854311, 19.760109)"
             />
             <motion.path
-                variants={icon_s}
+                variants={icon_b}
                 initial="hidden"
                 animate="visible"
                 transition={{
