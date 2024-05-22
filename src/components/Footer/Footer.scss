@@ -1,5 +1,5 @@
 footer {
-    @apply _._bg-[#12032F9c];
+    @apply _._bg-[#2f23039c];
 }
 ul,
 ol {
@@ -12,7 +12,7 @@ ol {
     display: block;
     content: " ";
     padding: 2px;
-    background: linear-gradient(45deg, #7a00ff, transparent);
+    background: linear-gradient(45deg, var(--prime_yellow), transparent);
     border-radius: 10px;
     width: 100%;
 }

@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="fw-title">codexde</h4>
+                                <h4 className="fw-title">CodexDE</h4>
                                 <div className="footer-link">Codex Development Environment</div>
                             </div>
                         </div>
@@ -65,12 +65,12 @@ export default function Footer() {
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             {/* <img src="/new_logo.png" alt="logo" width="80px" height="auto" className="animate__animated animate__backInRight animate__faster`" /> */}
-                            <h2 className="gradient_text">codexde.com</h2>
+                            <h2 className="gradient_text">CodexDE</h2>
                         </div>
                     </div>
                 </div>
             </footer>
-            <div className="_._bg-[#12032F] _._py-3">
+            <div className="_._bg-[#2f1f03] _._py-3">
                 <div className="container _._font-semibold">Copyright © 2024 Reserved by | codexde.com</div>
             </div>
         </>

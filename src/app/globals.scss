@@ -4,6 +4,10 @@
 @import "./bootstrap-mod.scss";
 @import "bootstrap/scss/bootstrap.scss";
 
+:root {
+    --prime_yellow: rgb(255, 219, 166);
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px !important;
@@ -16,13 +20,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #8400ff !important;
+    background: var(--prime_yellow) !important;
     border-radius: 10px !important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #8400ff !important;
+    background: var(--prime_yellow) !important;
 }
 
 body {
@@ -51,7 +55,7 @@ body {
 }
 .gradient_text {
     // @extend .h2_text;
-    background: linear-gradient(51deg, #c8bdff -31.69%, #baa6ff -22.78%, #6721ff 27.93%, #00cbff 99.79%);
+    background: linear-gradient(51deg, #ffdebd -31.69%, #ffdba6 -22.78%, #d3ff21 27.93%, #00cbff 99.79%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -98,7 +102,7 @@ body {
 }
 .box {
     background: rgba(255, 255, 255, 0.1);
-    background: linear-gradient(51deg, rgba(200 184 232 / 20%) -31.69%, rgba(103 33 255 / 20%) -22.78%, rgba(103 33 255 / 20%) 27.93%, rgba(0 203 255 / 20%) 99.79%);
+    background: linear-gradient(51deg, rgba(232, 218, 184, 0.2) -31.69%, rgba(244, 255, 33, 0.2) -22.78%, rgba(244, 255, 33, 0.2) 27.93%, rgba(0 203 255 / 20%) 99.79%);
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 10px;
     // display: flex;
