@@ -3,17 +3,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container, Row } from "react-bootstrap";
 import { usePathname } from "next/navigation";
-import { Services } from "@/components/ServiceList";
 import { GoChevronLeft } from "react-icons/go";
 import { FcHome, FcNext } from "react-icons/fc";
+import { Products } from "@/components/ProductList";
 
 const metadata: Metadata = {
-    title: "Offered Services : codexde.com",
+    title: "Our Products : codexde.com",
     description: "codexde | TITLE- LIST",
 };
 
 function getCurrentService(path: string | null) {
-    return Services.filter((s) => path?.includes(s.link))[0];
+    return Products.filter((s) => path?.includes(s.link))[0];
 }
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
                         <b className="_._whitespace-nowrap">
                             <FcHome style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} /> Home
                             <FcNext style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} />
-                            Services{!!service ? <FcNext style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} /> : ""}
+                            Products{!!service ? <FcNext style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} /> : ""}
                             {service?.heading}
                         </b>
                     </center>
@@ -39,8 +39,8 @@ export default function RootLayout({
             </Container>
             {children}
             <center>
-                <Link href="/offered-services" type="button" className="_._p-4">
-                    <GoChevronLeft style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} /> Back to services
+                <Link href="/products" type="button" className="_._p-4">
+                    <GoChevronLeft style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} /> Back to products
                 </Link>
             </center>
         </>

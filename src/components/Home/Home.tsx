@@ -5,6 +5,7 @@ import Typer from "@/components/Typer/Typer";
 import { Container, Row, Col } from "react-bootstrap";
 import { Services } from "../ServiceList";
 import Link from "next/link";
+import { Products } from "../ProductList";
 // export default function Home() {
 //     return (
 //         <>
@@ -47,6 +48,31 @@ export const Home: FC<any> = (): ReactElement => {
                 </Row>
             </Container>
             <Container>
+                <Row className="_._text-center">
+                    <h2>Products</h2>
+                </Row>
+                <Row>
+                    {Products.map((service, i) => {
+                        return (
+                            <Col key={i} sm={12} md={6} lg={6}>
+                                <Link href={`/products/${service.link}`} className="box _._flex _._flex-col md:_._flex-row _._text-white">
+                                    <div className="md:_._mr-5">
+                                        <img src={`/${service.icon}`} alt="" width="1000px" height="auto" />
+                                    </div>
+                                    <div>
+                                        <h3>{service.heading}</h3>
+                                        <p>{service.body}</p>
+                                    </div>
+                                </Link>
+                            </Col>
+                        );
+                    })}
+                </Row>
+            </Container>
+            <Container>
+                <Row className="_._text-center">
+                    <h2>Services</h2>
+                </Row>
                 <Row>
                     {Services.map((service, i) => {
                         return (

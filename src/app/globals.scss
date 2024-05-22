@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import "./bootstrap-mod.scss";
 @import "bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Prosto+One&display=swap");
 
 :root {
     --prime_yellow: rgb(255, 219, 166);
@@ -59,6 +60,9 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Prosto One", consolas;
+    font-weight: 400;
+    font-style: normal;
 }
 .gradient_text::before,
 .gradient_text::after {
