@@ -2,6 +2,7 @@ import { NavLinks } from "@/components/NavLinks";
 import Link from "next/link";
 import "./Footer.scss";
 import { Services } from "../ServiceList";
+import { Products } from "../ProductList";
 
 export default function Footer() {
     return (
@@ -25,6 +26,24 @@ export default function Footer() {
                                                 <li key={i}>
                                                     <Link href={nav.path} className={`text-[#6721ff] hover:text-[#6721ff]`}>
                                                         {nav.name}
+                                                    </Link>
+                                                </li>
+                                            );
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                            <div className="footer-widget">
+                                <h4 className="fw-title">Products</h4>
+                                <div className="footer-link">
+                                    <ul className="list-wrap">
+                                        {Products.map((service, i) => {
+                                            return (
+                                                <li key={i}>
+                                                    <Link href={`/offered-services/${service.link}`} className={`text-[#6721ff] hover:text-[#6721ff]`}>
+                                                        {service.heading}
                                                     </Link>
                                                 </li>
                                             );
