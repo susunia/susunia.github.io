@@ -31,11 +31,11 @@ export default function ContactUs() {
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 animate__animated animate__fadeInright animate__slow">
                         <div className="_._p-16">
-                            <b>We are Professionals</b>
                             <h2 className="_._text-[34px] md:_._text-[38px]">Don’t Hesitate to contact with us for any kind of information</h2>
                             {/* <div className="_._text-lg _._text-white/60">abc</div> */}
                             <ul className="_._p-4">
-                                <li>Bankura (West Bengal India) 722137</li>
+                                <li>AB-47/2, Prafulla Kanan, Kestopur,</li>
+                                <li>Kolkata, West Bengal, 700101</li>
                                 <li>Email: info@codexde.com</li>
                                 <li>Phone:+91 9734606012</li>
                             </ul>
