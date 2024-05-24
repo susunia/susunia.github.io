@@ -39,9 +39,13 @@ export default function RootLayout({
             </Container>
             {children}
             <center>
-                <Link href="/products" type="button" className="_._p-4">
-                    <GoChevronLeft style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} /> Back to products
-                </Link>
+                {!!service ? (
+                    <Link href="/products" type="button" className="_._p-4">
+                        <GoChevronLeft style={{ display: "inline-block", marginTop: "-2px", marginRight: "2px", marginLeft: "2px" }} /> Back to products
+                    </Link>
+                ) : (
+                    ""
+                )}
             </center>
         </>
     );
