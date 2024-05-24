@@ -42,7 +42,7 @@ export default function Footer() {
                                         {Products.map((service, i) => {
                                             return (
                                                 <li key={i}>
-                                                    <Link href={`/offered-services/${service.link}`} className={`text-[#6721ff] hover:text-[#6721ff]`}>
+                                                    <Link href={`/products/${service.link}`} className={`text-[#6721ff] hover:text-[#6721ff]`}>
                                                         {service.heading}
                                                     </Link>
                                                 </li>
