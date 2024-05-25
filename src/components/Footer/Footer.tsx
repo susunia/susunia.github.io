@@ -7,7 +7,7 @@ import { Products } from "../ProductList";
 export default function Footer() {
     return (
         <>
-            <footer className="_._text-lg">
+            <footer className="_._text-lg _._mt-5">
                 <div className="container _._py-5">
                     <div className="row">
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
