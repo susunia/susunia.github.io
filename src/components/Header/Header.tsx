@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 export default function Header() {
     const pathName = usePathname();
     return (
-        <header className="_._mb-5">
+        <header className="_._mb-20">
             <div className="container _._flex _._flex-wrap lg:_._justify-between _._justify-center _._p-2 _._md:p-5">
                 <Link href="/" className="_._flex title-font _._font-medium _._items-center _._text-gray-900 _._mb-4">
                     {/* <img src="/new_logo.png" alt="logo" width="200px" height="auto" className="animate__animated animate__backInLeft animate__faster`" /> */}
