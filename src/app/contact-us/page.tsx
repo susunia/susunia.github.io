@@ -2,8 +2,21 @@
 import { motion } from "framer-motion";
 import "./styles.scss";
 import { FcAssistant } from "react-icons/fc";
-
+import { FormEvent, useState } from "react";
 export default function ContactUs() {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [phone, setPhone] = useState("");
+    const [message, setMessage] = useState("");
+
+    function handleSubmit(e: any) {
+        e.preventDefault();
+        console.log(name);
+        console.log(email);
+        console.log(phone);
+        console.log(message);
+    }
+
     return (
         <>
             <div className="container _._mt-10">
@@ -20,12 +33,44 @@ export default function ContactUs() {
                         <div className="contact-form">
                             <b>Send a message</b>
                             <h2 className="_._text-[28px] md:_._text-[38px]">Contact Form</h2>
-                            <form action="">
-                                <input type="text" name="name" id="name" placeholder="Your Name" />
-                                <input type="email" name="email" id="email" placeholder="Your Email" />
-                                <input type="phone" name="phone" id="phone" placeholder="Your Phone" />
-                                <textarea style={{ height: "85px" }} name="message" id="message" placeholder="Please describe what you need*"></textarea>
-                                <motion.input whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} type="button" value="SUBMIT" />
+                            <form action="" onSubmit={handleSubmit} name="contact">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    onChange={(e) => {
+                                        setName(e.target.value);
+                                    }}
+                                    placeholder="Your Name"
+                                />
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    onChange={(e) => {
+                                        setEmail(e.target.value);
+                                    }}
+                                    placeholder="Your Email"
+                                />
+                                <input
+                                    type="phone"
+                                    name="phone"
+                                    id="phone"
+                                    onChange={(e) => {
+                                        setPhone(e.target.value);
+                                    }}
+                                    placeholder="Your Phone"
+                                />
+                                <textarea
+                                    style={{ height: "85px" }}
+                                    name="message"
+                                    id="message"
+                                    onChange={(e) => {
+                                        setMessage(e.target.value);
+                                    }}
+                                    placeholder="Please describe what you need*"
+                                ></textarea>
+                                <motion.input whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} type="submit" value="SUBMIT" />
                             </form>
                         </div>
                     </div>
