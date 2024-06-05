@@ -39,6 +39,12 @@ body {
     z-index: 0;
     // background-image: url(/shape.png);
     // background: radial-gradient(ellipse at center 0%, #e66465, transparent), radial-gradient(ellipse at 100%, #4d9f0c, transparent);
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    // background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
 }
 
 .h2_text {
@@ -106,7 +112,7 @@ body {
 }
 .box {
     background: rgba(255, 255, 255, 0.1);
-    background: linear-gradient(51deg, hsl(0deg 0% 72.44% / 20%) -31.69%, rgb(129 129 129 / 20%) -22.78%, rgb(184 185 168 / 20%) 27.93%, rgb(0 203 255 / 37%) 99.79%);
+    // background: linear-gradient(51deg, hsl(0deg 0% 72.44% / 20%) -31.69%, rgb(129 129 129 / 20%) -22.78%, rgb(184 185 168 / 20%) 27.93%, rgb(0 203 255 / 37%) 99.79%);
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 10px;
     // display: flex;
@@ -117,6 +123,7 @@ body {
     margin: 20px;
     transition: 0.3s linear;
     transform: translateY(0);
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
 }
 .box:active,
 .box:focus,
