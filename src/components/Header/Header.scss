@@ -4,7 +4,7 @@
 }
 .active-link {
     // @apply _._ring-2 _._ring-purple-500 _._ring-offset-4 _._ring-offset-slate-50 dark:_._ring-offset-slate-900;
-    // @apply _._text-[#2389eb] _._border-b _._border-white;
+    // @apply _._text-[#dce121] _._border-b _._border-white;
 }
 
 .large {
@@ -44,7 +44,7 @@
     content: "";
     position: absolute;
     height: 2px;
-    background-color: #2389eb;
+    background-color: #dce121;
     width: 0;
     left: 50%;
     bottom: 0;
@@ -57,7 +57,7 @@
 // }
 .axa:hover,
 .active-link {
-    color: #2389eb;
+    color: #dce121;
 }
 .axa:hover::after,
 .active-link::after {
