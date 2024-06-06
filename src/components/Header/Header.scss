@@ -2,10 +2,6 @@
     font-size: 40px;
     @apply _._text-white;
 }
-.active-link {
-    // @apply _._ring-2 _._ring-purple-500 _._ring-offset-4 _._ring-offset-slate-50 dark:_._ring-offset-slate-900;
-    // @apply _._text-[#dce121] _._border-b _._border-white;
-}
 
 .large {
     @apply _._text-white/50;
@@ -26,40 +22,18 @@
 .Studios {
     color: white;
 }
-// .axa {
-//     transform: scale(1) !important;
-//     transition: all 0.4s ease !important;
-// }
-.axa,
-.active-link::after {
+.axa {
     display: inline-block;
-    text-decoration: none;
-    letter-spacing: 2px;
-    position: relative;
-    transition: all 0.4s ease;
+    letter-spacing: 1.5px;
+    padding: 7px;
+    border: 1px solid #0808084a;
+    border-radius: 50px;
+    background: #8f8f8f8a;
+    box-shadow: 2px 1px 6px 0px #0000008c;
 }
 
-.axa::after,
-.active-link::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    background-color: #dce121;
-    width: 0;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
-}
-// .axa:hover {
-//     transform: scale(1.2) !important;
-//     transition: all 0.4s ease !important;
-// }
 .axa:hover,
 .active-link {
     color: #dce121;
-}
-.axa:hover::after,
-.active-link::after {
-    width: 100%;
+    background-color: #c14477;
 }
