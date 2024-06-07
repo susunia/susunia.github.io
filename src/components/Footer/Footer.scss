@@ -1,23 +1,23 @@
 footer {
-    @apply _._bg-[#0722388a];
+	@apply _._bg-[#0722388a];
 }
 ul,
 ol {
-    padding-left: 0 !important;
+	padding-left: 0 !important;
 }
 .fw-title {
-    color: #0093ff;
+	color: #0093ff;
 }
 .fw-title::after {
-    display: block;
-    content: " ";
-    padding: 2px;
-    background: linear-gradient(45deg, var(--prime_yellow), transparent);
-    border-radius: 10px;
-    width: 100%;
+	display: block;
+	content: " ";
+	padding: 2px;
+	background: linear-gradient(45deg, var(--prime_yellow), transparent);
+	border-radius: 10px;
+	width: 100%;
 }
 .footer-link {
-    padding: 5px;
-    font-size: small;
-    line-height: normal;
+	padding: 5px;
+	font-size: small;
+	line-height: normal;
 }

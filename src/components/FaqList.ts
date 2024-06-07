@@ -1,3 +1,3 @@
 export const FaqList = [
-    { question: "", icon:"", ans: "" },
+	{ question: "", icon: "", ans: "" },
 ]

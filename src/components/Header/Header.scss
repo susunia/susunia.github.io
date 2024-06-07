@@ -1,39 +1,39 @@
 .logo_text {
-    font-size: 40px;
-    @apply _._text-white;
+	font-size: 40px;
+	@apply _._text-white;
 }
 
 .large {
-    @apply _._text-white/50;
-    font-size: 160px;
-    line-height: 125px;
-    text-shadow: 0 0 20px #6400ff;
+	@apply _._text-white/50;
+	font-size: 160px;
+	line-height: 125px;
+	text-shadow: 0 0 20px #6400ff;
 }
 .S {
-    margin-bottom: -11%;
-    margin-left: -13%;
+	margin-bottom: -11%;
+	margin-left: -13%;
 }
 .nor-text {
-    font-size: 20px;
+	font-size: 20px;
 }
 .Backlink {
-    color: red;
+	color: red;
 }
 .Studios {
-    color: white;
+	color: white;
 }
 .axa {
-    display: inline-block;
-    letter-spacing: 1.5px;
-    padding: 7px;
-    border: 1px solid #0808084a;
-    border-radius: 50px;
-    background: #8f8f8f8a;
-    box-shadow: 2px 1px 6px 0px #0000008c;
+	display: inline-block;
+	letter-spacing: 1.5px;
+	padding: 7px;
+	border: 1px solid #0808084a;
+	border-radius: 50px;
+	background: #8f8f8f8a;
+	box-shadow: 2px 1px 6px 0px #0000008c;
 }
 
 .axa:hover,
 .active-link {
-    color: #dce121;
-    background-color: #c14477;
+	color: #dce121;
+	background-color: #c14477;
 }

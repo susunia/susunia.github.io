@@ -6,13 +6,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Prosto+One&display=swap");
 
 :root {
-    --prime_yellow: rgb(255, 219, 166);
+	--prime_yellow: rgb(255, 219, 166);
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px !important;
-    height: 0px !important;
+	width: 5px !important;
+	height: 0px !important;
 }
 
 /* Track */
@@ -21,115 +21,115 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--prime_yellow) !important;
-    border-radius: 10px !important;
+	background: var(--prime_yellow) !important;
+	border-radius: 10px !important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--prime_yellow) !important;
+	background: var(--prime_yellow) !important;
 }
 
 body {
-    background-size: 100vw auto;
-    background-repeat: no-repeat; /* Display the image once */
-    background-position: center center; /* Center the image horizontally */
+	background-size: 100vw auto;
+	background-repeat: no-repeat; /* Display the image once */
+	background-position: center center; /* Center the image horizontally */
 
-    background-attachment: fixed;
-    z-index: 0;
-    // background-image: url(/shape.png);
-    // background: radial-gradient(ellipse at center 0%, #e66465, transparent), radial-gradient(ellipse at 100%, #4d9f0c, transparent);
-    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
-    background-image: linear-gradient(-225deg, #473b7b 0%, #3584a7 51%, #30d2be 100%);
-    // background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+	background-attachment: fixed;
+	z-index: 0;
+	// background-image: url(/shape.png);
+	// background: radial-gradient(ellipse at center 0%, #e66465, transparent), radial-gradient(ellipse at 100%, #4d9f0c, transparent);
+	background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+	background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+	background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+	background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+	background-image: linear-gradient(-225deg, #473b7b 0%, #3584a7 51%, #30d2be 100%);
+	// background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
 }
 
 .h2_text {
-    // font-size: 10px;
-    @apply _._text-[38px] md:_._text-[55px] lg:_._text-[66px] xl:_._text-[68px];
-    // line-height: 1;
-    font-weight: 700;
-    // margin-bottom: 20px;
-    // text-transform: uppercase;
+	// font-size: 10px;
+	@apply _._text-[38px] md:_._text-[55px] lg:_._text-[66px] xl:_._text-[68px];
+	// line-height: 1;
+	font-weight: 700;
+	// margin-bottom: 20px;
+	// text-transform: uppercase;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
 }
 .gradient_text {
-    // @extend .h2_text;
-    background: linear-gradient(51deg, #ffdebd -31.69%, #ffdba6 -22.78%, #d3ff21 27.93%, #00cbff 99.79%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "Prosto One", consolas;
-    font-weight: 400;
-    font-style: normal;
+	// @extend .h2_text;
+	background: linear-gradient(51deg, #ffdebd -31.69%, #ffdba6 -22.78%, #d3ff21 27.93%, #00cbff 99.79%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: "Prosto One", consolas;
+	font-weight: 400;
+	font-style: normal;
 }
 .gradient_text::before,
 .gradient_text::after {
-    content: " ";
-    display: inline-block;
-    padding: 5px;
+	content: " ";
+	display: inline-block;
+	padding: 5px;
 }
 .label {
-    width: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-width: 1px 0;
-    box-shadow: 0px 42px 76px rgba(0, 4, 43, 0.5);
-    border-radius: 0px;
-    display: block;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-width: 1px 0;
+	box-shadow: 0px 42px 76px rgba(0, 4, 43, 0.5);
+	border-radius: 0px;
+	display: block;
 }
 
 .gicon {
-    width: 64px;
-    height: 64px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: linear-gradient(51deg, #c8bdff -31.69%, #baa6ff -22.78%, #6721ff 27.93%, #00cbff 99.79%);
-    position: relative;
-    font-size: 24px;
-    color: white;
-    z-index: 1;
+	width: 64px;
+	height: 64px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: linear-gradient(51deg, #c8bdff -31.69%, #baa6ff -22.78%, #6721ff 27.93%, #00cbff 99.79%);
+	position: relative;
+	font-size: 24px;
+	color: white;
+	z-index: 1;
 }
 .gicon::before {
-    content: "";
-    position: absolute;
-    left: 2px;
-    right: 2px;
-    top: 2px;
-    bottom: 2px;
-    border-radius: 50%;
-    background: #331a5d;
-    z-index: -1;
+	content: "";
+	position: absolute;
+	left: 2px;
+	right: 2px;
+	top: 2px;
+	bottom: 2px;
+	border-radius: 50%;
+	background: #331a5d;
+	z-index: -1;
 }
 .box {
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 5px;
-    padding: 28px;
-    margin: 30px;
-    transition: 0.3s linear;
-    transform: translateY(0);
-    background-color: #8f8f8f8a;
-    box-shadow: 2px 1px 6px 0px #0000008c;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 5px;
+	padding: 28px;
+	margin: 30px;
+	transition: 0.3s linear;
+	transform: translateY(0);
+	background-color: #8f8f8f8a;
+	box-shadow: 2px 1px 6px 0px #0000008c;
 }
 .box:active,
 .box:focus,
 .box:focus-visible,
 .box:focus-within,
 .box:hover {
-    transform: translateY(-10px);
-    border: 2px solid #0d8be1;
-    border: 2px solid #0d8be1;
-    outline-width: 3px;
-    outline-style: ridge;
-    outline-offset: 4px;
-    outline-color: #0d8be1;
+	transform: translateY(-10px);
+	border: 2px solid #0d8be1;
+	border: 2px solid #0d8be1;
+	outline-width: 3px;
+	outline-style: ridge;
+	outline-offset: 4px;
+	outline-color: #0d8be1;
 }

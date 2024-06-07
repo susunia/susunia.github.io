@@ -1,18 +1,18 @@
 .fm_container {
-    width: 150px;
-    height: 150px;
-    display: flex;
-    place-content: center;
-    overflow: hidden;
-    background: #ffffff00;
-    border-radius: 30px;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	place-content: center;
+	overflow: hidden;
+	background: #ffffff00;
+	border-radius: 30px;
 }
 
 .fm_item {
-    width: 100%;
-    overflow: visible;
-    stroke: #fff;
-    stroke-width: 5;
-    stroke-linejoin: round;
-    stroke-linecap: round;
+	width: 100%;
+	overflow: visible;
+	stroke: #fff;
+	stroke-width: 5;
+	stroke-linejoin: round;
+	stroke-linecap: round;
 }

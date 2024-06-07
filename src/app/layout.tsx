@@ -8,31 +8,31 @@ import Header from "@/components/Header/Header";
 const inter = Inter({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
 const prompt_font = Prompt({
-    subsets: ["latin"],
-    weight: "400"
+	subsets: ["latin"],
+	weight: "400",
 });
 const Nanum_Gothic_font = Nanum_Gothic({
-    subsets: ["latin"],
-    weight: "400",
+	subsets: ["latin"],
+	weight: "400",
 });
 
 export const metadata: Metadata = {
-    title: "Codex Development Environment",
-    description: "codexde | TITLE- LIST",
+	title: "Codex Development Environment",
+	description: "codexde | TITLE- LIST",
 };
 
 export default function RootLayout({
-    children,
+	children,
 }: Readonly<{
-    children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body className={`${prompt_font.className} _._text-slate-200 _._text-[1.1rem]`}>
-                <Header />
-                {children}
-                <Footer />
-            </body>
-        </html>
-    );
+	return (
+		<html lang="en">
+			<body className={`${prompt_font.className} _._text-slate-200 _._text-[1.1rem]`}>
+				<Header />
+				{children}
+				<Footer />
+			</body>
+		</html>
+	);
 }
